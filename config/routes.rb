@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  get 'jobs/index'
+
+  get 'jobs/show'
+
+  get 'jobs/new'
+
+  get 'jobs/edit'
+
+  get 'jobs/create'
+
+  get 'jobs/update'
+
+  get 'jobs/destroy'
+
+  get 'jobs/_form'
+
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
